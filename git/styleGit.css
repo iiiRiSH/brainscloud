@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list{
+   
+}
+
+.list li {
+    font-size: 18px;
+    color: rgb(207, 204, 20);
+}
