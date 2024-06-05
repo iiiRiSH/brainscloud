@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/3_CSS/style.css">
+    <title>3 урок</title>
+</head>
+<body>
+    <h1 class='title'>Что такое CSS</h1>
+    <ul>
+        <li><b>CSS</b> (Cascading Style Sheets) - каскадные таблицы стилей</li>
+        <li>Служит для внешнего оформления HTML документа (шрифт, цвет, фон и тд.)</li>
+        <li>CSS файлы имеют расширение <b>.css</b></li>
+        <li>CSS файл состоит из набора <b>селекторов, свойств и значений к ним</b></li>
+        <li>CSS файл читается браузером сверху вниз</li>
+        <li>Дочерние элементы наследуют некоторые свойства их родителей</li>
+        <li>Некоторые теги имеют оформление по умолчанию, которое придает им браузер</li>
+    </ul>
+    <h3 class='title'>Стилизация через class</h3>
+    <p>class - глобальный атрибут, можно использовать для стилизации многих элементов</p>
+    <p>&lt;h1 class='title'&gt;Заголовок&lt;/h1&gt;</p>
+    <p>.title { <br> свойство: значение; <br> свойство: значение; <br> }</p>
+    <h3 class='title'>Пример</h3>
+    <dl>
+        <dt>&lt;h1&gt;Заголовок&lt;/h1&gt;</dt>
+        <dd><b>Заголовок</b> - вид в браузере</dd>
+        <dt>&lt;h1 class='title'&gt;Заголовок&lt;/h1&gt;</dt>
+        <dd><b>Заголовок</b> - вид в браузере</dd>
+    </dl>
+    <p>.title { <br> color: red; <br> } <br> <i>это прописывается в css файле</i></p>
+    <h3 class='title'>Стилизация тегов</h3>
+    <p class='center'><i>Иногда нужно, но если можно, то используем class</i></p>
+    <p>&lt;h1&gt;Заголовок&lt;/h1&gt;</p>
+    <p>h1 { <br> свойство: значение; <br> свойство: значение; <br> }</p>
+    <h3 class='title'>Наследование стилей</h3>
+    <ul>
+        <li>Дочерние элементы наследуют некоторые стили родительских элементов, если такие стили не были заданы</li>
+    </ul>
+    <p>body { <br> font-size: 15px; <br> color: black; <br> }</p>
+    <p>p { <br> font-size: 18px; <br> }</p>
+    <ul>
+        <li>В основном наследуется стиль оформления текста</li>
+    </ul>
+</body>
+</html>

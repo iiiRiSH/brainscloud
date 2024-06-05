@@ -1,0 +1,15 @@
+body {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+.title {
+    color: red;
+    text-align: center;
+}
+.center {
+    text-align: center;
+}
