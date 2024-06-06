@@ -1,0 +1,12 @@
+body {
+    font-size: 20px;
+}
+
+.title {
+    text-align: center;
+    color: red;
+}
+
+.thicken_p {
+    font-weight: bold;
+}
