@@ -1,0 +1,16 @@
+body {
+    font-size: 30px;
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.mal {
+    font-size: 18px;
+}
