@@ -1,0 +1,30 @@
+body {
+    font-size: 20px;
+}
+
+.title {
+    text-align: center;
+    color: red;
+}
+
+.table {
+    width: 100%;
+    border: 1px dashed black;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.table th {
+    padding: 5px 10px 8px 15px;
+    text-align: left;
+    color: red;
+}
+
+.table td {
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+
+.table tfoot td {
+    text-align: right;
+}

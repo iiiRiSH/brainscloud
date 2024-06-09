@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/8_HTML_tables/style.css">
+    <title>8 урок</title>
+</head>
+<body>
+    <h1 class="title">HTML-таблицы</h1>
+    <p>
+        <b>HTML-файл</b> <br>
+        <img src="/8_HTML_tables/assets/images/1.png" alt=""> <br>
+    </p>
+    <ol>
+        <li><b>&lt;table&gt;&lt;/table&gt;</b> - создаём таблицу</li>
+        <li>В теги <i>&lt;table&gt;</i> прописываем <i>class=</i> <b>"table"</b></li>
+        <li>Для симантики внутри тега <i>table</i> вводим теги <br>
+        <b>&lt;thead&gt;&lt;/thead&gt;</b> - голова <br>
+        <b>&lt;tbody&gt;&lt;/tbody&gt;</b> - тело <br>
+        <b>&lt;tfoot&gt;&lt;/tfoot&gt;</b> - подвал </li>
+        <li>
+        Далее создаем ячейки <br>
+        <b>&lt;tr&gt;</b> - строка <br>
+        <b>&lt;td&gt;</b> - ячейка <br>
+        <b>&lt;th&gt;</b> - главная ячейка <br>
+        <i>атрибут <b>colspan="4"</b> - объединяет ячейки, в данном случаи объядинил 4 ячейки</i>
+        </li>
+    </ol>
+    <p>
+        <b>CSS-файл</b> <br>
+        <img src="/8_HTML_tables/assets/images/2.png" alt="">
+    </p>
+    <ul>
+        <li><b>width: 100%;</b> - ширина таблицы на всю ширину сайта</li>
+        <li><b>border: 1px solid black;</b> - граница таблицы и ее толщина, тип (сплошная) и цвет <br>
+        <i>(также типы бывают <b>dashed</b>(граница черточками), <b>dotted</b> (точками))</i></li>
+        <li><b>border-collapse: collapse;</b> - схлопывает границы делая единой</li>
+        <li><b>table-layout: fixed;</b> - делает ячейки равными по размеру</li>
+        <li><b>padding: 5px 10px 8px 15px;</b> - отступы (по часовой стрелки: верх, право, вниз, лево)</li>
+    </ul>
+    <h2 class="title">Пример</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Имя</th>
+                <th>E-mail</th>
+                <th>Дата регистрации</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Дмитрий</td>
+                <td>dima@mail.com</td>
+                <td>21.01.2020</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Александр</td>
+                <td>alex@mail.com</td>
+                <td>22.01.2020</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Всего: 2</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
