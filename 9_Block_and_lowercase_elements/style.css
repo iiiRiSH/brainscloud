@@ -1,0 +1,32 @@
+body {
+    font-size: 20px;
+}
+
+.title {
+    text-align: center;
+    color: red;
+}
+
+.Lorem {
+    text-align: justify;
+}
+
+.text-red {
+    display: inline-block;
+    padding: 10px;
+
+    color: red;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.page {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}

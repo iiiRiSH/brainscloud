@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/9_Block_and_lowercase_elements/style.css">
+    <title>9 урок</title>
+</head>
+
+<body>
+    <div class="page">
+    <h1 class="title">Блочные и строчные элементы</h1>
+
+        <div class="content">
+        <p><b>&lt;div&gt;&lt;/div&gt;</b> - тег, который разделяет блоки, он не имеет никого внешнего оформления. Это
+            <b><i>блочный элемент</i></b> в который можно помещать другие элементы. <br> Для <i>div</i> мы можем задавать
+            свойства: ширину, высоту, отступ внутрений и отступ внешний с любых сторон. <br>
+            <img src="/9_Block_and_lowercase_elements/assets/images/1.png" alt="" width="600px"> <br>
+            Здесь <b>margin</b> задает внешние отступы по отдельности низ, верх, право, лево<br>
+            <img src="/9_Block_and_lowercase_elements/assets/images/4.png" alt=""> <br>
+            Здесь <b>margin</b> задает внешние отступы верх, низ по 10px, и по центру <br>
+            <img src="/9_Block_and_lowercase_elements/assets/images/5.png" alt="">
+        </p>
+        <p><b><i>&lt;span&gt;&lt;/span&gt;</i></b> - тег, строчный элемент, который позваляет обернуть часть текста для
+            дальнейшего его редактирования через <i>class=""</i>. <br>
+            <img src="/9_Block_and_lowercase_elements/assets/images/2.png" alt=""> <br>
+            Через <i>class=""</i> прописываем свойства <br>
+            <b>display: block;</b> - строчный элемент делает блочным <br>
+            <b>display: inline-block;</b> - делает элемент строчно-блочным <br>
+            <img src="/9_Block_and_lowercase_elements/assets/images/3.png" alt="">
+        </p>
+        <h2 class="title">Как разместить контент сайта по середине страницы</h2>
+        <p>Весь контент сайта оборачиваем в тег <i>div</i> и через <i>class</i> прописываем свойства <br>
+            <img src="/9_Block_and_lowercase_elements/assets/images/7.png" alt=""></p>
+        <h2 class="title">Пример</h2>
+        <p class="Lorem">Многие думают, что <span class="text-red">Lorem Ipsum</span> - взятый с потолка
+            псевдо-латинский набор слов,
+            но это не совсем так. Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух
+            тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно
+            из самых странных слов в
+            Lorem Ipsum, "consectetur", и занялся его поисками в классической латинской литературе. В результате он
+            нашёл неоспоримый первоисточник Lorem Ipsum в разделах 1.10.32 и 1.10.33 книги "de Finibus Bonorum et
+            Malorum" ("О пределах добра и зла"), написанной Цицероном в 45 году н.э. Этот трактат по теории этики был
+            очень популярен в эпоху Возрождения. Первая строка Lorem Ipsum, "Lorem ipsum dolor sit amet..", происходит
+            от одной из строк в разделе 1.10.32</p>
+        </div>
+
+        <div class="footer">
+        <p>copyright 2024</p>
+        </div>
+    </div>
+</body>
+
+</html>
