@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/11_background_2/style.css">
+    <title>11 урок</title>
+</head>
+
+<body>
+    <h1>Работа с фоном. Часть 2</h1>
+    <div class="contetnt">
+        <h2 class="title">Общая запись для свойства background</h2>
+        <p><b>background: #fff url("/11_background_2/assets/images/morning.jpg") no-repeat center; <br>
+                background-size: cover;</b></p>
+    </div>
+    <div class="gradient">
+        <h2 class="title">Градиент</h2>
+        <p>
+            background-image: linear-gradient(to bottom, #fff, rgb(13, 74, 9)); <br>
+            где направление также можем указать <b>to top, to right, to left</b> <br>
+            также направление для градиента можем задавать через градусы, напр, <b>45deg</b>, можно задавать
+            отрицательное значение <b>-45deg</b>. Задаём от <b>360deg</b> до <b>-360deg</b>. <br>
+            Можно указывать <i>более двух цветов</i>. <br>
+            Указывая рядом с цветом процент, означает сколько места будет занимать тот или иной цвет <b>#fff 40%</b>.
+        </p>
+    </div>
+    <div class="gradient2">
+        <h2 class="title">Градиент 2</h2>
+        <p>
+            background-image: <i>linear-gradient</i><br><b>(to right, #fff 50%, #333 50%);</b>
+        </p>
+    </div>
+    <div class="gradient3">
+        <h2 class="title3">Градиент 3</h2>
+        <p>
+            <b><i>background-image:</i> radial-gradient(circle, #fff, rgb(13, 74, 9));</b>
+        </p>
+    </div>
+</body>
+
+</html>

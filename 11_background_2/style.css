@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(62, 114, 83);
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.contetnt {
+    width: 700px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+
+    background: #fff url("/11_background_2/assets/images/morning.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.gradient {
+    width: 700px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+
+    background-image: linear-gradient(to bottom, #fff 50%, rgb(13, 74, 9));
+}
+
+.gradient2 {
+    width: 700px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+
+    background-image: linear-gradient(to right, #fff 50%, rgb(13, 74, 9) 50%);
+}
+
+.gradient3 {
+    width: 700px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+
+    background-image: radial-gradient(circle, #fff, rgb(13, 74, 9));
+}
+
+.gradient3 p {
+    text-align: center;
+}
+
+.title {
+    color: rgb(13, 74, 9);
+}
+
+.title3 {
+    color: rgb(13, 74, 9);
+    text-align: center;
+}
