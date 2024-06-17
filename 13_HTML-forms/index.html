@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/13_HTML-forms/style.css">
+    <title>13 урок</title>
+</head>
+
+<body>
+
+    <div class="form">
+        <h1 class="title">HTML-формы</h1>
+        <form action="/" method="post">
+            <fieldset>
+                <legend>Контактная информация</legend>
+            <div class="form-group">
+                <label for="input_name">Ваше имя</label>
+                <input class="form-input" type="text" name="name" id="input_name">
+            </div>
+
+            <div class="form-group">
+                <input class="form-input" type="email" name="name" placeholder="Ваш e-mail">
+            </div>
+
+            <div class="form-group">
+                <input class="form-input" type="tel" name="tel" placeholder="Ваш телефон">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Пароль</legend>
+            <div class="form-group">
+                <input class="form-input" type="password" name="password" placeholder="Придумайте пароль">
+            </div>
+        </fieldset>
+
+            <div class="form-group">
+                <textarea class="form-textarea" name="text" id="" placeholder="О вас"></textarea>
+            </div>
+
+            <div class="form-group">
+                <select name="city" id="">
+                    <option value="">Рига</option>
+                    <option value="">Даугапилс</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="male">Муж</label>
+                <input type="radio" name="choose_male" id="male">
+
+                <label for="female">Жен</label>
+                <input type="radio" name="choose_male" id="female">
+            </div>
+
+            <div class="form-group">
+                <label for="photo">Фото</label>
+                <input type="file" name="photo" id="photo">
+            </div>
+
+            <div class="form-group">
+                <input type="checkbox" name="rules_agree" id="rules_agree">
+                <label for="rules_agree">Прочитал условия и согласен с ними</label>
+            </div>
+
+            <button type="submit">Отправить</button>
+            <button type="reset">Очистить</button>
+
+        </form>
+    </div>
+
+    <div class="description">
+        <h3 class="title">Тег &lt;form&gt;&lt;/form&gt; и &lt;input&gt; - строка для ввода</h3>
+        <p>
+            <img src="/13_HTML-forms/assets/images/1.png" alt="" width="100%"><br>
+            <span class="reduce">Input для ввода имени</span>
+        </p>
+        <ul>
+            <li>Форма создается с помощью тега <b>&lt;form&gt;&lt;/form&gt;</b></li>
+            <li>В теги <b>&lt;input&gt;</b> прописываются вводимые данные</li>
+            <ul>
+                <li>Для атрибута <b>type="здесь тип вводимых данных"</b><br>
+                    <i><b>type="text"</b></i> - для ввода текста ↑<span class="reduce">смтр картинку</span><br>
+                    <i><b>type="email"</b></i> - для ввода почты ↓<span class="reduce">смтр картинку</span><br>
+                </li>
+            </ul>
+        </ul>
+        <p>
+            <img src="/13_HTML-forms/assets/images/2.png" alt="" width="100%"><br>
+            <span class="reduce">Input для ввода почты</span>
+        </p>
+        <p>
+            <img src="/13_HTML-forms/assets/images/4.png" alt="" width="100%"><br>
+            <span class="reduce">Input для ввода номера телефона</span>
+        </p>
+        <p>
+            <img src="/13_HTML-forms/assets/images/3.png" alt="" width="100%"><br>
+            <SPan class="reduce">Input для ввода пароля</SPan>
+        </p>
+
+        <h3 class="title">Тег &lt;textarea&gt;&lt;/textarea&gt; для ввода большого текстового поля</h3>
+        <img src="/13_HTML-forms/assets/images/5.png" alt="" width="100%">
+        <h3 class="title">Тег &lt;label&gt;&lt;/label&gt;</h3>
+        <img src="/13_HTML-forms/assets/images/6.png" alt="" width="100%">
+        <p>Тег <i>label</i> предназначен для обозначения что в данное поле вводить,<br>
+            для привязки необходимо в атрибут <b>for=""</b> ввести уникальный <b>id=""</b> <i>input</i></p>
+        <img src="/13_HTML-forms/assets/images/7.png" alt="">
+        <img src="/13_HTML-forms/assets/images/8.png" alt="">
+        <p>Свойство css <b>display: block;</b> позволит разместить название строки сверху</p>
+        <h3 class="title">Тег &lt;select&gt;&lt;/select&gt;</h3>
+        <img src="/13_HTML-forms/assets/images/9.png" alt="" width="100%">
+        <img src="/13_HTML-forms/assets/images/10.png" alt="">
+        <p>Позволяет выбрать нужный вариант из предложенного выходящего списка</p>
+        <h3 class="title">Тег <i>input</i> с атрибутом <i>type="radio"</i></h3>
+        <img src="/13_HTML-forms/assets/images/11.png" alt="" width="100%">
+        <img src="/13_HTML-forms/assets/images/12.png" alt="">
+        
+        <ul>
+            <li>Атрибут <b>name=""</b> должени быть одинаковым, так как позволяет выбрать только один вариант из
+                предложенных.</li>
+                <li>Атрибут <b>id=""</b> всегда уникальный.</li>
+        </ul>
+        
+        <h3 class="title">Тег <i>input</i> с атрибутом <i>type="checkbox"</i></h3>
+        <img src="/13_HTML-forms/assets/images/13.png" alt="" width="100%">
+        <img src="/13_HTML-forms/assets/images/14.png" alt="">
+
+        <h3 class="title">Тег &lt;button&gt;&lt;/button&gt; - для создания кнопки</h3>
+        <img src="/13_HTML-forms/assets/images/15.png" alt="" width="100%">
+        <ul>
+            <li>Атрибут <b>type="submit"</b> позволяет при нажатии на кнопку - <b>отправить</b> заполненную форму</li>
+            <li>Атрибут <b>type="reset"</b> позволяет при нажатии на кнопку - <b>очистить</b> заполненную форму</li>
+        </ul>
+
+        <h3 class="title">Тег <i>input</i> с атрибутом <i>type="file"</i></h3>
+        <img src="/13_HTML-forms/assets/images/16.png" alt="" width="100%">
+        <p>Этот атрибут позволяет загрузить файл, в данном примере это фото.</p>
+        <img src="/13_HTML-forms/assets/images/17.png" alt="">
+    </div>
+
+</body>
+
+</html>
