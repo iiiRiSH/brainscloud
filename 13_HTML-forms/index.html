@@ -12,6 +12,9 @@
 
     <div class="form">
         <h1 class="title">HTML-формы</h1>
+
+        <a class="link" href="/14_Pseudo-classes/index.html">Ссылка</a>
+
         <form action="/" method="post">
             <fieldset>
                 <legend>Контактная информация</legend>
@@ -61,12 +64,17 @@
             </div>
 
             <div class="form-group">
-                <input type="checkbox" name="rules_agree" id="rules_agree">
+                <input type="checkbox" name="rules_agree" id="rules_agree" checked>
                 <label for="rules_agree">Прочитал условия и согласен с ними</label>
             </div>
 
-            <button type="submit">Отправить</button>
-            <button type="reset">Очистить</button>
+            <div class="form-group">
+                <button class="btn" type="submit">Отправить</button>
+            </div>
+
+            <div class="form-group">
+                <button type="reset">Очистить</button>
+            </div>
 
         </form>
     </div>
