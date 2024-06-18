@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/15_border_outline/style.css">
+    <title>15 урок</title>
+</head>
+
+<body>
+    <div class="lesson">
+        <h1 class="title">Границы (border, outline)</h1>
+
+        <a href="/13_HTML-forms/index.html" target="_blank">Страница где применялись классы <i>границ</i></a>
+
+        <div class="block">
+            <h2>Свойство border и его значения</h2>
+            <img src="/15_border_outline/assets/images/1.png" alt="">
+            <p>Общая запись для свойства <b>border</b> (граница) можем иметь вид одной строкой, в которой по порядку
+                указываем ширину, тип(стиль) и цвет. Так и для каждой из сторон отдельно (в примере верхнюю границу
+                убрали записью <i>border-top: none;</i>)</p>
+        </div>
+
+        <div class="block">
+            <img src="/15_border_outline/assets/images/2.png" alt="">
+            <p>Так выклядит запись <b>border</b> раздельно</p>
+        </div>
+
+        <div class="block">
+            <img src="/15_border_outline/assets/images/3.png" alt="">
+            <p>Чтобы изменить цвет каждой из сторон используются следующие свойства</p>
+        </div>
+
+        <div class="block">
+            <img src="/15_border_outline/assets/images/4.png" alt="">
+            <p>Изменить ширину границы для каждой стороны</p>
+        </div>
+
+        <div class="block">
+            <img src="/15_border_outline/assets/images/5.png" alt="">
+            <p>Изменить стиль(тип) границы для каждой стороны</p>
+        </div>
+
+        <div class="block">
+            <h2>outline</h2>
+            <p>Главное отличие <i>outline</i> от <i>border</i> заключается в том, что мы можем задать обводку для
+                элемента не влияя на размер этого элемента. При увеличении ширины обводки она выходит за пределы
+                элемента.
+            </p>
+            <img src="/15_border_outline/assets/images/6.png" alt="">
+            <p>
+                Синтаксис для <i>outline</i> выглядит также как и для <i>border</i>.
+            </p>
+        </div>
+
+        <div class="block">
+            <img src="/15_border_outline/assets/images/7.png" alt="">
+            <p>Свойство <b>outline-offset:</b> задаёт отступ от элемента для которого задаётся обводка. Также для
+                отступа может задаваться отрицательное значение, в этом случаи обводка будет заходить на территорию
+                элемента (но смысла в таком решении особо нет).
+            </p>
+            <p>
+                <i>Outline</i> не может задаваться для каждой из сторон в отдельности.
+                Он устанавливается по умолчанию при создании инпута, текстового поля, но его можно убрать или
+                редактировать.
+            </p>
+        </div>
+
+        <div class="block">
+            <h2>Сокращённая запись для шрифта</h2>
+
+            <img src="/15_border_outline/assets/images/8.png" alt="">
+            <p>Также можно добавить дополнительные значения <i>стиль и межстрочный интервал.</i></p>
+            <img src="/15_border_outline/assets/images/9.png" alt="" width="100%">
+            <p>Главное соблюдать порядок при вводе записи.</p>
+        </div>
+
+        <div class="block">
+            <h2>Свойство text-decoration: и его значения</h2>
+            <img src="/15_border_outline/assets/images/10.png" alt="">
+            <img src="/15_border_outline/assets/images/11.png" alt="">
+            <img src="/15_border_outline/assets/images/12.png" alt="">
+            <img src="/15_border_outline/assets/images/13.png" alt="">
+            <p>
+                Но нужно быть осторожнее, при выборе нескольких значений некоторые браузеры могут не поддерживать такую
+                запись. Обычно используют только значение <b>underline</b>.
+            </p>
+            <h2>Так выглядит запись раздельно</h2>
+            <img src="/15_border_outline/assets/images/14.png" alt="">
+                <img src="/15_border_outline/assets/images/15.png" alt="">
+        </div>
+
+    </div>
+
+</body>
+
+</html>
