@@ -13,11 +13,12 @@
     <div class="form">
         <h1 class="title">HTML-формы</h1>
 
-        <a class="link" href="/14_Pseudo-classes/index.html">Ссылка</a>
+        <a class="link" href="/14_Pseudo-classes/index.html" target="_blank">Ссылка на Псевдоклассы</a>
+        <a class="link" href="/15_border_outline/index.html" target="_blank">Ссылка на свойства границ, шрифта...</a>
 
         <form action="/" method="post">
-            <fieldset>
-                <legend>Контактная информация</legend>
+            <div class="form-fieldset">
+                <h3 class="form-title">Контактная информация</h3>
             <div class="form-group">
                 <label for="input_name">Ваше имя</label>
                 <input class="form-input" type="text" name="name" id="input_name">
@@ -30,14 +31,14 @@
             <div class="form-group">
                 <input class="form-input" type="tel" name="tel" placeholder="Ваш телефон">
             </div>
-        </fieldset>
+        </div>
 
-        <fieldset>
-            <legend>Пароль</legend>
+        <div class="form-fieldset">
+            <h3 class="form-title">Пароль</h3>
             <div class="form-group">
                 <input class="form-input" type="password" name="password" placeholder="Придумайте пароль">
             </div>
-        </fieldset>
+        </div>
 
             <div class="form-group">
                 <textarea class="form-textarea" name="text" id="" placeholder="О вас"></textarea>

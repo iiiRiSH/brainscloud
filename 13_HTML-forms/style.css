@@ -8,6 +8,10 @@ body {
 .title {
     text-align: center;
     color: red;
+
+    text-decoration-style: dashed;
+    text-decoration-line: overline;
+    text-decoration-color: blue;
 }
 
 
@@ -47,9 +51,13 @@ body {
     padding: 5px;
 
     border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 5px;
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+
+    font: bold italic 15px/1.5 Arial, sans-serif;
 }
 
 .form-textarea:focus {
@@ -75,12 +83,13 @@ body {
 }
 
 .link {
+    display: block;
     color: rgb(104, 104, 190);
     text-decoration: none;
 }
 
 .link:visited {
-    color: #dd1212;
+    color: #6900cc;
 }
 
 .link:hover {
@@ -114,4 +123,15 @@ body {
         color: #626262;
         cursor: not-allowed;
         border: 1px solid #444;
+    }
+
+    .form-fieldset {
+        margin: 20px;
+        padding: 20px;
+
+        border: 1px solid #ccc;
+    }
+
+    .form-title {
+        margin: 0 0 15px;
     }
