@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/14_Pseudo-classes/style.css">
+    <title>14 урок</title>
+</head>
+
+<body>
+    <div class="lesson">
+        <h1 class="title">Псевдоклассы</h1>
+        <p>Псевдоклассы это интерактив с нашими элементами. При наведении курсора на элемент он изменяет свой цвет,
+            бэкграунд и т.п. Элемент становится заметным и показывает готовность к взаимодействию с ним.
+        </p>
+
+        <div class="block">
+            <h3 class="title">Псевдокласс :hover </h3>
+        <img src="/14_Pseudo-classes/assets/images/1.png" alt="">
+        <p>Добавляем к обычному классу псевдокласс :hover без пробелов и прописываем свойства для создания интерактива.
+        </p>
+        <p>
+            При наведении курсора на ссылку появляется нижнее подчеркивание.
+        </p>
+        <img src="/14_Pseudo-classes/assets/images/2.png" alt="">
+        <p>
+            В данном случае псевдокласс :hover добавляем к классу относящийся к кнопки. В итоге цвет кнопки при
+            наведении на нее курсором изменяется на более темный.
+        </p>
+        <p>
+            <b>Нет взаимодействия</b> <br>
+            <img src="/14_Pseudo-classes/assets/images/3.png" alt=""> <br>
+            <b>При наведении курсором на кнопку</b> <br>
+            <img src="/14_Pseudo-classes/assets/images/4.png" alt="">
+        </p>
+
+        <h3 class="title">Свойство для псевдокласса :hover <u>cursor: pointer</u></h3>
+        <img src="/14_Pseudo-classes/assets/images/5.png" alt="">
+        <p>
+            При наведении на кнопку вместо стрелки появляется рука
+            <img src="/14_Pseudo-classes/assets/images/6.png" alt="">
+        </p>
+        </div>
+
+        <div class="next-block">
+            <h3 class="title">Псевдокласс <u>:focus</u></h3>
+        <img src="/14_Pseudo-classes/assets/images/7.png" alt="">
+        <p>Убрали подсвечивающую границу и при нажатии на input бэкграунд изменил цвет.</p>
+        </div>
+
+        <div class="block">
+            <h3 class="title">Псевдокласс <u>:active</u></h3>
+        <img src="/14_Pseudo-classes/assets/images/8.png" alt="">
+        <p>Интерактив осуществляется при <b>нажатии</b> на кнопку и она меняет цвет на более темный либо на абсолютно
+            любой другой.</p>
+        </div>
+
+        <div class="next-block">
+            <h3 class="title">Псевдокласс <u>:visited</u></h3>
+        <img src="/14_Pseudo-classes/assets/images/9.png" alt="">
+        <p>
+            Этот псевдокласс используется для ссылок после посещения которой она меняет цвет. Рекомендуется использовать
+            при условии наличия большого количества ссылок на сайте.
+        </p>
+        </div>
+
+        <div class="block">
+            <h3 class="title">Рекомендуемый порядок использования псевдоклассов</h3>
+        <img src="/14_Pseudo-classes/assets/images/10.png" alt="">
+        </div>
+        
+        <div class="next-block">
+            <h3 class="title">Псевдокласс <u>:disabled</u></h3>
+        <p>
+            атрибут <b>disabled</b> прописывается в теги <b>button</b>, что делает кнопку неактивной
+            <img src="/14_Pseudo-classes/assets/images/11.png" alt="" width="100%">
+        </p>
+        <p>
+            затем в css-файле придаются примерно следующие свойства (неактивный вид)
+            <img src="/14_Pseudo-classes/assets/images/12.png" alt="">
+        </p>
+        </div>
+
+        <div class="block">
+            <h3 class="title">Псевдокласс <u>:checked</u></h3>
+        <img src="/14_Pseudo-classes/assets/images/13.png" alt="" width="100%">
+        <p>Атрибут <b>checked</b> вводится в <i>input</i> с типом <b>radio</b> и <b>checkbox</b>. Визуально показывая по умолчанию выбранный вариант.</p>
+        <img src="/14_Pseudo-classes/assets/images/14.png" alt="">
+        <p class="text-red">css-свойства для псевдокласса <b>:checked</b> рассмотрятся в следующих уроках</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
