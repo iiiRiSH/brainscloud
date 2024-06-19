@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/17_Positioning/style.css">
+    <title>17 урок</title>
+</head>
+
+<body>
+
+    <div class="modal">
+        <h2 class="modal-title">Модальное окно</h2>
+        <div class="square"></div>
+        <div class="square red"></div>
+        <p>Текст текст текст</p>
+    </div>
+
+    <div class="square-fixed"></div>
+
+    <h1 class="title">Позиционирование элементов</h1>
+
+    <div class="lesson">
+        <h2>position: absolute;</h2>
+        <img src="/17_Positioning/assets/images/1.png" alt="">
+        <p>
+            Свойство <b>position: absolute;</b> двигает элемент.
+        </p>
+        <p>
+            <img src="/17_Positioning/assets/images/2.png" alt="" height="300px">
+            <span class="small">Вид элемента в браузере</span>
+        </p>
+    </div>
+
+    <div class="lesson">
+        <img src="/17_Positioning/assets/images/3.png" alt="">
+        <p>
+            Свойство сторон могут иметь отрицательное значение, в этом случаи элемент выходит за пределы той области
+            относительно которой осуществляется позиционирование.
+        </p>
+        <p>
+            <img src="/17_Positioning/assets/images/4.png" alt="">
+            <span class="small">Вид элемента в браузере</span>
+        </p>
+    </div>
+
+    <div class="lesson">
+        <h2>position: relative;</h2>
+        <img src="/17_Positioning/assets/images/5.png" alt="">
+        <p>
+            Свойство <b>position: relative;</b> делает элемент главным относительно которого осуществляется
+            позиционирование.
+        </p>
+    </div>
+
+    <div class="lesson">
+        <h2>Задаём элементу два класса</h2>
+        <img src="/17_Positioning/assets/images/7.png" alt="">
+        <p>
+            Создав ещё один элемент (в нашем случаи квадрат красного цвета).
+        </p>
+        <img src="/17_Positioning/assets/images/8.png" alt="">
+        <p>
+            И уже к существующим значениям в классе <b>.square</b> добавляем класс <b>.red</b> меняем цвет.
+        </p>
+        <img src="/17_Positioning/assets/images/9.png" alt="">
+        <p>
+            На место черного квадрата становится красный так как имеет все те же свойства что и черный. Но приоритетность у него
+        оказывается выше (позже добавлен) поэтому он оказывается сверху и перекрывает черный квадрат.
+        </p>
+    </div>
+
+    <div class="lesson">
+        <img src="/17_Positioning/assets/images/10.png" alt="">
+        <p>
+            Задав отрицательные значения сторон для красного квадрата...
+        </p>
+        <img src="/17_Positioning/assets/images/11.png" alt="">
+        <p>
+            то можно увидеть элементы под ним.
+        </p>
+    </div>
+
+    <div class="lesson">
+        <h2>z-index:</h2>
+        <img src="/17_Positioning/assets/images/12.png" alt="">
+        <p>
+            Свойство <b>z-index:</b> может расставить приоритетность между элементами...
+        </p>
+        <img src="/17_Positioning/assets/images/13.png" alt="">
+        <p>
+            и поменять их местами.
+        </p>
+    </div>
+
+    <div class="lesson">
+        <h2>position: static;</h2>
+        <img src="/17_Positioning/assets/images/14.png" alt="">
+        <p>
+            Если задать свойство <b>position: static;</b> все последующие свойства позиционирования элемента
+            перестают работать. Элемент становится статичным.
+        </p>
+    </div>
+
+    <div class="lesson">
+        <h2>position: fixed;</h2>
+        <img src="/17_Positioning/assets/images/15.png" alt="">
+        <p>
+            Свойство <b>position: fixed;</b> фиксирует элемент относительно просматриваемого окна браузера
+        </p>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+    background-color: #6e6e6e;
+}
+
+h2 {
+    color: #d41717;
+}
+
+
+/* Modal */
+
+.modal {
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    position: relative;
+
+    background-color: #eee;
+}
+
+.modal-title {
+    margin: 0;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+
+    background-color: #333;
+
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    z-index: 2;
+}
+
+.square.red {
+    background-color: #d41717;
+    right: -15px;
+    top: -5px;
+    z-index: 1;
+}
+
+.square-fixed {
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    margin-left: -25px;
+
+    background-color: #4fa3ec;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+
+/* Lesson */
+
+.title {
+    text-align: center;
+    color: #ffffff;
+}
+
+.lesson {
+    width: 700px;
+    margin: 0 auto 10px;
+    padding: 10px;
+
+    background-color: white;
+}
+
+.small {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;s
+}
