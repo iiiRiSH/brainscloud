@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/21_CSS-3/style.css">
+    <title>21 урок</title>
+</head>
+
+<body>
+    <h1 class="title">CSS3-свойства</h1>
+
+    <div class="element">
+        <h1 class="element-title">Тени для текста</h1>
+    </div>
+
+    <div class="lesson">
+        <h2 class="title">border-radius: <br> <span class="text-white">закругление углов</span></h2>
+        <p>Закругление углов, можно указывать как в <b>px</b> так и <b>%</b></p>
+        <p>
+            <u>border-<b>top-left</b>-radius:</u> - закругление верхнего левого угла <br>
+            <u>border-<b>top-right</b>-radius:</u> - верхний правый <br>
+            <u>border-<b>bottom-right</b>-radius:</u> - нижний правый <br>
+            <u>border-<b>bottom-left</b>-radius:</u> - нижний левый <br>
+        </p>
+        <p>
+            <b>border-radius: 20% 20% 30% 40% / 30% 30% 40% 50%;</b> - мзменение каждой из сторон углов, для создания
+            необычной формы.
+        </p>
+    </div>
+
+    <div class="lesson shadow">
+        <h2 class="title">box-shadow: <br> <span class="text-white">тень для элемента</span></h2>
+        <p>
+            Свойство <b>box-shadow:</b> создаёт тени
+            <img src="/21_CSS-3/assets/images/1.png" alt="" width="100%">
+        </p>
+        <h4>значения по порядку</h4>
+        <ul>
+            <li>смещение тени по горизонтали ↑</li>
+            <li>смещение по вертикали</li>
+            <li>размытие</li>
+            <li>цвет</li>
+        </ul>
+        <img src="/21_CSS-3/assets/images/2.png" alt="" width="100%">
+        <h4>дополнительные параметры ↑</h4>
+        <ul>
+            <li>увелечение тени</li>
+            <li>внутренния тень</li>
+        </ul>
+        <p>
+            <img src="/21_CSS-3/assets/images/3.png" alt="" width="100%">
+            внутренния и внешняя тени для элемента
+        </p>
+    </div>
+
+    <div class="lesson">
+        <h2 class="title">text-shadow: <span class="text-white shadow">тень для текста</span></h2>
+        <img src="/21_CSS-3/assets/images/4.png" alt="" width="100%">
+        <ul>
+            <li>смещение тени по горизонтали ↑</li>
+            <li>смещение по вертикали</li>
+            <li>размытие</li>
+            <li>цвет</li>
+        </ul>
+    </div>
+
+    <div class="lesson">
+        <h2 class="title">box-sizing: border-box;</h2>
+        <p>
+            Свойство box-sizing: border-box; в CSS изменяет способ расчета размеров элемента.
+        </p>
+        <p>
+            Без box-sizing: border-box; (по умолчанию - content-box)
+        </p>
+        <p>
+            При box-sizing: border-box, добавление внутренних отступов (padding) или границ (border) не изменяет размеры
+            элемента, заданные
+            в CSS. Это упрощает управление размерами элементов, особенно при сложной верстке.
+        </p>
+        <img src="/21_CSS-3/assets/images/5.png" alt="">
+        <p>
+
+            Чтобы свойство box-sizing: border-box; применялось ко всем элементам на странице, можно использовать
+            CSS-правило, применяемое ко всем элементам и псевдоэлементам с помощью универсального селектора (*) и
+            селектора псевдоэлементов (*::before и *::after). Обычно это делается в самом начале CSS-файла, чтобы
+            гарантировать, что это правило будет применяться ко всем элементам на странице.
+        </p>
+    </div>
+
+    <div class="lesson opacity">
+        <h2 class="title">opacity: <br> <span class="text-white">непрозрачность</span></h2>
+        <p>
+            Значение opacity может быть от 0 (полностью прозрачный) до 1 (полностью непрозрачный). <br>
+            <i>0.5 - полупрозрачный</i>
+        </p>
+    </div>
+
+    <div class="lesson">
+        <h2 class="title">resize: <br> <span class="text-white">растягивание текстового поля (элемента) курсором</span>
+        </h2>
+        <ul>
+            <li>resize: <b>horizontal;</b> - по горизонтали</li>
+            <li>resize: <b>vertical;</b> - по вертикали</li>
+            <li>resize: <b>both;</b> - как по горизонтали, так и по вертикали</li>
+            <li>resize: <b>none;</b> - невозможность изменения размера элемента</li>
+        </ul>
+        <h2 class="title">min-height: 150px; <br>
+            max-height: 250px;</h2>
+        <p>
+            Следующими свойствами мы зададим минимальное и максимальное растягивание элемента по вертикали (высоту).
+        </p>
+    </div>
+
+    <div class="lesson">
+        <h2 class="title">transition: <br> <span class="text-white">плавное изменение свойства</span></h2>
+        <p>
+            Свойство transition в CSS позволяет анимировать изменения свойств элемента при взаимодействии с ним. Это
+            означает, что когда определенное свойство изменяется, анимация плавно переходит от начального значения к
+            конечному.
+        </p>
+        <img src="/21_CSS-3/assets/images/6.png" alt="">
+        <ul>
+            <li><b>background-color:</b> Свойство CSS, которое изменяется. В данном случае это цвет фона элемента.</li>
+            <li><b>0.2s:</b> Длительность перехода. В этом случае анимация длится 0.2 секунды (200 миллисекунд).</li>
+            <li><b>linear:</b> Функция временного распределения. Линейная функция означает, что анимация будет происходить с
+                постоянной скоростью от начала до конца.</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
