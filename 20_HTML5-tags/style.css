@@ -1,0 +1,27 @@
+body {
+    font: 18px Arial;
+
+    background-color: rgb(220, 220, 220);
+}
+
+.main {
+    width: 600px;
+    margin: 0 auto 20px;
+    padding: 10px;
+
+    background-color: white;
+}
+
+.title {
+    text-align: center;
+    color: rgb(214, 27, 27);
+}
+
+.text-red {
+    color: rgb(214, 27, 27);
+    font-style: italic;
+}
+
+.footer {
+    text-align: center;
+}
