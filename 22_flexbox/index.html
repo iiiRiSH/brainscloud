@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/22_flexbox/style.css">
+    <title>22 урок</title>
+</head>
+
+<body>
+    <h1 class="title">Основы flexbox</h1>
+
+    <div class="page">
+
+        <header class="header">
+            <div class="header-item header-logo">Website</div>
+            <div class="header-item header-tel">
+                <div>+77072081796</div>
+                <div>info@mail.com</div>
+            </div>
+            <div class="header-item header-lang">
+                <a href="#">ru</a>
+                <a href="#">en</a>
+            </div>
+        </header>
+
+        <div class="content">
+            <aside class="sidebar">Sidebar</aside>
+
+            <main class="main">
+                <p class="text">
+                    Lorem ipsum
+                </p>
+            </main>
+
+            <aside class="sidebar">Sidebar</aside>
+        </div>
+
+        <footer class="footer">Footer</footer>
+
+    </div>
+
+
+
+    <div class="page-lesson">
+        <header class="header-lesson">
+            <h1 class="title">Свойства flexbox</h1>
+        </header>
+
+        <main class="main-lesson">
+
+            <div>
+                <h3>display: flex;</h3>
+                <p>
+                    <b>display: flex;</b> - это CSS-свойство, которое позволяет использовать flexbox-модель для создания
+                    гибких
+                    и адаптивных макетов. Flexbox (или гибкая коробка) упрощает выравнивание элементов и распределение
+                    пространства внутри контейнера, даже когда размер контейнера неизвестен или изменяется.
+                </p>
+            </div>
+
+            <div class="container-lesson">
+                <section class="column-lesson">
+                    <h3>flex-direction:</h3>
+                    <p>
+                        <b>flex-direction:</b> определяет направление основной оси (например, row, row-reverse, column,
+                        column-reverse).
+                    </p>
+                    <img src="/22_flexbox/assets/images/1.png" alt="" width="100%">
+                </section>
+
+                <section class="column-lesson">
+                    <h3>justify-content:</h3>
+                    <p>
+                        <b>justify-content:</b> выравнивает элементы вдоль основной оси (например, flex-start, flex-end,
+                        center, space-between, space-around, space-evenly).
+                    </p>
+                    <img src="/22_flexbox/assets/images/2.png" alt="" width="100%">
+                </section>
+
+                <section class="column-lesson">
+                    <h3>align-items:</h3>
+                    <p>
+                        <b>align-items:</b> выравнивает элементы вдоль поперечной оси (например, flex-start, flex-end,
+                        center,
+                        baseline, stretch).
+                    </p>
+                    <img src="/22_flexbox/assets/images/3.png" alt="" width="100%">
+                </section>
+            </div>
+
+            <div class="container-lesson">
+                <section class="column-lesson">
+                    <h3>flex-basis:</h3>
+                    <p>
+                        <b>flex-basis:</b> flex-basis: задает начальный размер элемента до распределения свободного
+                        пространства.
+                    </p>
+                    <img src="/22_flexbox/assets/images/5.png" alt="" width="300px">
+                </section>
+
+                <section class="column-lesson">
+                    <h3>flex-grow:</h3>
+                    <p>
+                        <b>flex-grow:</b> определяет, насколько элемент может расти относительно других
+                        элементов внутри контейнера.
+                    </p>
+                    <img src="/22_flexbox/assets/images/4.png" alt="" width="250px">
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer-lesson"><span class="text-white">21.06.2024</span></footer>
+    </div>
+
+</body>
+
+</html>
