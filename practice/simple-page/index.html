@@ -11,74 +11,76 @@
 <body>
 
     <div class="page">
-        <div class="header">
+        <header class="header">
             <h1 class="header-title">Мой первый сайт</h1>
             <h2 class="header-subtitle">Добро пожаловать!</h2>
-        </div>
+        </header>
 
-        <div class="nav">
+        <nav class="nav">
             <a class="nav-link" href="#">Главная</a>
             <a class="nav-link" href="#">Новости</a>
             <a class="nav-link" href="#">Видео</a>
             <a class="nav-link" href="#">Об авторе</a>
+        </nav>
+
+        <div class="container">
+            <main class="content">
+                <img class="img intro-img" src="/practice/simple-page/img/intro.jpg" alt="">
+                <h3 class="content-title">Новости</h3>
+                <article class="article">
+                    <h4 class="article-title"><a href="#">Заголовок новости</a></h4>
+                    <time class="article-date" datetime="21-12-2019 19:21">Вчера в 19:21</time>
+                    <div class="article-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut leo tristique, facilisis massa
+                            sed, euismod lorem. Donec eleifend, augue eget volutpat auctor, tortor quam efficitur ante, sed
+                            efficitur purus purus vel massa. Pellentesque habitant morbi tristique senectus et netus et
+                            malesuada fames ac turpis egestas. Praesent et posuere urna.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam enim vitae tristique porta.
+                            Sed augue est, molestie tristique bibendum sit amet, hendrerit quis urna. Fusce ex orci,
+                            efficitur eget mi nec, lobortis auctor dolor. Pellentesque habitant morbi tristique senectus et
+                            netus et malesuada fames ac turpis egestas. Sed cursus erat quis arcu fringilla, et mattis
+                            sapien fermentum. Praesent ultricies rhoncus est id dictum. Donec aliquet, felis nec lacinia
+                            maximus, dolor orci pulvinar urna, eget pharetra metus magna eget lacus. Pellentesque et mollis
+                            sapien. In mollis sem at arcu ultricies viverra laoreet eu nunc. Morbi iaculis, orci gravida
+                            cursus volutpat, orci metus rhoncus est, vel ultrices tortor libero aliquet mauris. In sed
+                            maximus sapien, vel varius nulla. Curabitur tincidunt ipsum.</p>
+                    </div>
+                    <a class="read-more" href="#">Читать полностью</a>
+                </article>
+                <article class="article">
+                    <h4 class="article-title"><a href="#">Заголовок новости</a></h4>
+                    <time class="article-date" datetime="20-12-2019 19:21">Среда в 17:11</time>
+                    <div class="article-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut leo tristique, facilisis massa
+                            sed, euismod lorem. Donec eleifend, augue eget volutpat auctor.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam enim vitae tristique porta.
+                            Sed augue est, molestie tristique bibendum sit amet, hendrerit quis urna. Fusce ex orci,
+                            efficitur eget mi nec, lobortis auctor dolor. Pellentesque habitant morbi tristique senectus et
+                            netus et malesuada fames ac turpis egestas. Sed cursus erat quis arcu fringilla, et mattis
+                            sapien fermentum.</p>
+                    </div>
+                    <a class="read-more" href="#">Читать полностью</a>
+                </article>
+            </main>
+    
+            <aside class="sidebar">
+                <h3 class="sidebar-title">Об авторе</h3>
+                <img class="img sidebar-img" src="/practice/simple-page/img/man.png" alt="">
+                <div class="sidebar-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis purus urna, eget cursus
+                        ligula dapibus ac. Donec ac justo nec sapien maximus ornare. Nam sit amet nisi id nibh interdum
+                        tincidunt.
+                    </p>
+                    <a class="read-more" href="#">Читать полностью</a>
+                </div>
+            </aside>
         </div>
 
-        <img src="/practice/simple-page/img/intro.jpg" alt="">
-
-        <div class="content">
-            <h3 class="content-title">Об авторе</h3>
-            <div class="content-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis purus urna, eget cursus
-                    ligula dapibus ac. Donec ac justo nec sapien maximus ornare. Nam sit amet nisi id nibh interdum
-                    tincidunt. Pellentesque ex sapien, pellentesque at risus rutrum, condimentum pellentesque nibh.
-                    Praesent sodales augue tincidunt, iaculis lorem et, placerat dui. Suspendisse accumsan ex nec dolor
-                    facilisis, ut fringilla enim consequat. Etiam id vulputate erat. Mauris vestibulum ante orci, a
-                    pharetra justo tempor sit amet. Sed posuere massa id eros imperdiet molestie. Ut fringilla orci a
-                    diam tempus, sit amet gravida purus lacinia. In in felis nunc. Curabitur placerat id.
-                </p>
-                <a class="read-more" href="#">Читать полностью</a>
-            </div>
-            <h3 class="content-title">Новости</h3>
-            <div class="article">
-                <h4 class="article-title"><a href="#">Заголовок новости</a></h4>
-                <div class="article-date">21.12.2019</div>
-                <div class="article-text">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut leo tristique, facilisis massa
-                        sed, euismod lorem. Donec eleifend, augue eget volutpat auctor, tortor quam efficitur ante, sed
-                        efficitur purus purus vel massa. Pellentesque habitant morbi tristique senectus et netus et
-                        malesuada fames ac turpis egestas. Praesent et posuere urna.</p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam enim vitae tristique porta.
-                        Sed augue est, molestie tristique bibendum sit amet, hendrerit quis urna. Fusce ex orci,
-                        efficitur eget mi nec, lobortis auctor dolor. Pellentesque habitant morbi tristique senectus et
-                        netus et malesuada fames ac turpis egestas. Sed cursus erat quis arcu fringilla, et mattis
-                        sapien fermentum. Praesent ultricies rhoncus est id dictum. Donec aliquet, felis nec lacinia
-                        maximus, dolor orci pulvinar urna, eget pharetra metus magna eget lacus. Pellentesque et mollis
-                        sapien. In mollis sem at arcu ultricies viverra laoreet eu nunc. Morbi iaculis, orci gravida
-                        cursus volutpat, orci metus rhoncus est, vel ultrices tortor libero aliquet mauris. In sed
-                        maximus sapien, vel varius nulla. Curabitur tincidunt ipsum.</p>
-                </div>
-                <a class="read-more" href="#">Читать полностью</a>
-            </div>
-            <div class="article">
-                <h4 class="article-title"><a href="#">Заголовок новости</a></h4>
-                <div class="article-date">21.12.2019</div>
-                <div class="article-text">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut leo tristique, facilisis massa
-                        sed, euismod lorem. Donec eleifend, augue eget volutpat auctor.</p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam enim vitae tristique porta.
-                        Sed augue est, molestie tristique bibendum sit amet, hendrerit quis urna. Fusce ex orci,
-                        efficitur eget mi nec, lobortis auctor dolor. Pellentesque habitant morbi tristique senectus et
-                        netus et malesuada fames ac turpis egestas. Sed cursus erat quis arcu fringilla, et mattis
-                        sapien fermentum.</p>
-                </div>
-                <a class="read-more" href="#">Читать полностью</a>
-            </div>
-        </div>
-        <div class="footer">Сделано мной!</div>
+        <footer class="footer">Сделано мной!</footer>
     </div>
 
 </body>
