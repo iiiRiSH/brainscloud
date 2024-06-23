@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #121212;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 15px;
+    margin: 20px auto;
+}
+
+.text {
+    margin-bottom: 40px;
+}
+
+.text > p:first-of-type {
+    color: red;
+}
+
+.text span {
+    background-color: #ccc;
+}
+
+.text span[title] {
+    text-decoration: underline;
+}
+
+.list {
+    margin-bottom: 40px;
+}
+
+.list li:nth-child(even) {
+    color: blue;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.label {
+    color: #ccc;
+}
+
+.checkbox:checked + .label {
+    color: #000;
+}
+
+
+/* Lesson */
+
+.lesson {
+    width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+
+    background-color: #ccc;
+    border-radius: 20px;
+}
+
+.title-lesson {
+    text-align: center;
+    color: #ffffff;
+
+    text-shadow: 2px 2px 2px #000;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/23_Selectors_pseudo-classes/style.css">
+    <title>23 урок</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text">
+            <div>Lorem ipsum</div>
+            <p>
+                Lorem <span>ipsum dolor sit amet</span>, consectetur adipiscing elit. <span title="text">Nullam at massa molestie</span>, ultrices massa ac,
+                convallis odio. Donec mattis accumsan sapien, a malesuada neque aliquet et. Etiam sed magna odio. Sed
+                hendrerit mauris vel ante eleifend, non pretium tellus sodales. Nulla at tincidunt ex, eu dapibus urna.
+                Pellentesque venenatis hendrerit interdum. Quisque venenatis ultrices vehicula.
+            </p>
+            <p>
+                Cras hendrerit sed lacus bibendum malesuada. Nunc nec tincidunt lectus. Aenean ac finibus dui, sit amet
+                convallis purus. In at vulputate nulla. Ut et turpis.
+            </p>
+
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at massa molestie, ultrices massa
+                    ac,
+                    convallis odio. Donec mattis accumsan sapien, a malesuada neque aliquet et. Etiam sed magna odio.
+                    Sed
+                    hendrerit mauris vel ante eleifend, non pretium tellus sodales.
+                </p>
+            </div>
+        </div>
+
+        <ul class="list">
+            <li>Элемент списка</li>
+            <li>Элемент списка</li>
+            <li>Элемент списка</li>
+            <li>Элемент списка</li>
+            <li>Элемент списка</li>
+            <li>Элемент списка</li>
+            <li>Элемент списка</li>
+            <li>Элемент списка</li>
+        </ul>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Номер</th>
+                    <th>Имя</th>
+                    <th>Дата регистрации</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Дмитрий</td>
+                    <td>19.12.2019</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Александр</td>
+                    <td>19.12.2019</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Иван</td>
+                    <td>20.12.2019</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Олег</td>
+                    <td>20.12.2019</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <input class="checkbox" type="checkbox" name="rules" id="rules">
+        <label class="label" for="rules">Принимаю условия</label>
+
+    </div>
+
+
+    
+    <div class="lesson">
+        <h1 class="title-lesson">Селекторы, псевдоклассы</h1>
+    <p><u><b>.text p</b></u> класс изменит стиль всех вложенных параграфов текста</p>
+    <p><u><b>.text > p</b></u> класс изменит стиль только <i>"прямых потомков" текстового блока</i></p>
+    <p><u><b>.list li</b></u> класс изменит стиль всех вложенных элементов списка</p>
+    <p><u><i>.list li</i><b>:first-child</b></u> псевдокласс изменит стиль только первого элемента списка</p>
+    <p><u><i>.list li</i><b>:last-child</b></u> псевдокласс изменит стиль только последнего элемента списка</p>
+    <p><u><i>.list li</i><b>:nth-child(2)</b></u> псевдокласс изменит стиль того элемента списка что указан в скобках</p>
+    <p><u><i>.list li</i><b>:nth-child(odd)</b></u> псевдокласс изменит стиль нечётных элементов списка</p>
+    <p><u><i>.list li</i><b>:nth-child(even)</b></u> псевдокласс изменит стиль чётных элементов списка</p>
+    <p><u><i>.text > p</i><b>:first-of-type</b></u> псевдокласс изменит стиль первого дочернего элемента по типу <b>p</b></p>
+    <p><u><i>.table tbody tr</i><b>:nth-child(even)</b></u> псевдокласс изменит стиль чётных элементов таблицы <br> (удобно
+        изменять бэкграунд для лучшей читабельности) <br> <b>odd</b> - для нечётных строк</p>
+    <p><u><b>.checkbox:checked + .label</b></u> псевдокласс помогает изменить стиль <i>label</i> после наведения на него курсором</p>
+    <p><u><b>.text span[title] </b></u> глобальный атрибут(<i>title</i>) помогает добавить дополнительной стилилизации для <i>span</i></p>
+    </div>
+    
+</body>
+
+</html>
