@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/24_Selectors_priorities/style.css">
+    <title>24 урок</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <h1 class="title" style="color: rgb(0, 0, 0) !important;">Приоритеты селекторов</h1>
+
+        <p>
+            CSS читается сверху вниз, правила которые указаны ниже приоритетнее правил выше.
+        </p>
+        <p>
+            Селектор через id (#container) имеет больший вес, значение и правила выше на него не распространяется. <br>
+            <span class="red">Рекомендуется в css-файле работать через class!</span>
+        </p>
+        <p>
+            Стилилизация через вложенность по тегам имеет больший вес чем класс. <br>
+            <span class="red">Не рекомендуется использовать, только в редких случаях!</span>
+        </p>
+        <p>
+            <u><i>color: green <b>!important;</b></i></u> - ключ <i>!important;</i> имеет самый большой вес и перекроет
+            любую
+            другую стилилизацую. <br>
+            <span class="red">Используется очень редко и скорее всего вы совершили ошибку раннее.</span>
+        </p>
+        <p>
+            Ключ <i>important</i> можно перезаписать только через следующий атрибут также с указанием <i>important</i> -
+            <u><i><b>style=</b>"color: blue <b>!important;"</b></i></u> <br>
+            <span class="red">Также не рекомендуется использовать!</span>
+        </p>
+    </div>
+
+</body>
+
+</html>
