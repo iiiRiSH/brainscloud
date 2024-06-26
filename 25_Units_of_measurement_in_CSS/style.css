@@ -1,0 +1,103 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    color: #121212;
+}
+
+.container {
+    width: 400px;
+    padding: 15px;
+    margin: 20px auto;
+
+    background-color: #eee;
+}
+
+.title {
+    margin: 0 0 1rem;
+
+    font-size: 2rem;
+    color: #121212;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.4em 0.8em;
+
+    background-color: #36b717;
+    border-radius: 0.4em;
+    box-shadow: 0 0 0.2em #000000;
+
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-xl {
+    font-size: 2rem;
+}
+
+
+/* Lesson */
+
+.main-lesson {
+    width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+
+    background-color: #7fdf68;
+    border-radius: 20px;
+}
+
+.main-container {
+    width: 800px;
+    margin: 0 auto;
+
+    display: flex;
+}
+
+.container-lesson {
+    margin: 10px;
+    padding: 20px;
+
+    background-color: #313131;
+    border-radius: 20px;
+}
+
+.title-lesson {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.text-lesson {
+    text-align: justify;
+    line-height: 25px;
+
+    color: #b0b0b0;
+}
+
+.result {
+    width: 740px;
+    margin: 10px auto;
+
+    background-color: #fff;
+}
+
+.text-white {
+    text-align: center;
+    color: #1a4e2b;
+
+    font-style: italic;
+}
+
+.em-rem {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
