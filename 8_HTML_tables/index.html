@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/8_HTML_tables/style.css">
     <title>8 урок</title>
 </head>
+
 <body>
     <h1 class="title">HTML-таблицы</h1>
     <p>
@@ -16,15 +18,16 @@
         <li><b>&lt;table&gt;&lt;/table&gt;</b> - создаём таблицу</li>
         <li>В теги <i>&lt;table&gt;</i> прописываем <i>class=</i> <b>"table"</b></li>
         <li>Для симантики внутри тега <i>table</i> вводим теги <br>
-        <b>&lt;thead&gt;&lt;/thead&gt;</b> - голова <br>
-        <b>&lt;tbody&gt;&lt;/tbody&gt;</b> - тело <br>
-        <b>&lt;tfoot&gt;&lt;/tfoot&gt;</b> - подвал </li>
+            <b>&lt;thead&gt;&lt;/thead&gt;</b> - голова <br>
+            <b>&lt;tbody&gt;&lt;/tbody&gt;</b> - тело <br>
+            <b>&lt;tfoot&gt;&lt;/tfoot&gt;</b> - подвал
+        </li>
         <li>
-        Далее создаем ячейки <br>
-        <b>&lt;tr&gt;</b> - строка <br>
-        <b>&lt;td&gt;</b> - ячейка <br>
-        <b>&lt;th&gt;</b> - главная ячейка <br>
-        <i>атрибут <b>colspan="4"</b> - объединяет ячейки, в данном случаи объядинил 4 ячейки</i>
+            Далее создаем ячейки <br>
+            <b>&lt;tr&gt;</b> - строка <br>
+            <b>&lt;td&gt;</b> - ячейка <br>
+            <b>&lt;th&gt;</b> - главная ячейка <br>
+            <i>атрибут <b>colspan="4"</b> - объединяет ячейки, в данном случаи объядинил 4 ячейки</i>
         </li>
     </ol>
     <p>
@@ -34,7 +37,8 @@
     <ul>
         <li><b>width: 100%;</b> - ширина таблицы на всю ширину сайта</li>
         <li><b>border: 1px solid black;</b> - граница таблицы и ее толщина, тип (сплошная) и цвет <br>
-        <i>(также типы бывают <b>dashed</b>(граница черточками), <b>dotted</b> (точками))</i></li>
+            <i>(также типы бывают <b>dashed</b>(граница черточками), <b>dotted</b> (точками))</i>
+        </li>
         <li><b>border-collapse: collapse;</b> - схлопывает границы делая единой</li>
         <li><b>table-layout: fixed;</b> - делает ячейки равными по размеру</li>
         <li><b>padding: 5px 10px 8px 15px;</b> - отступы (по часовой стрелки: верх, право, вниз, лево)</li>
@@ -69,5 +73,48 @@
             </tr>
         </tfoot>
     </table>
+
+    <div class="container">
+        <h1 class="title">Вертикальное выравнивание (vertical-align)</h1>
+        <table class="table-2">
+            <thead>
+                <tr>
+                    <th>Номер</th>
+                    <th>Имя</th>
+                    <th>Дата регистрации</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Иван Петрович Ивлев</td>
+                    <td>27.06.2024</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Анна Сергеевна Петрова-Романова</td>
+                    <td>29.06.2024</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Юрий Андреевич Иванов</td>
+                    <td>01.07.2024</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Ольга Павловна Смирнова</td>
+                    <td>01.07.2024</td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <img src="/8_HTML_tables/assets/images/3.png" alt="">
+            <p>
+                <i>В таблицах свойство vertical-align: top используется для выравнивания содержимого ячеек по верхнему
+                краю ячейки. Удобно применить, так как во второй строке больше контента чем в остальных ячейках.</i>
+            </p>
+        </div>
+    </div>
 </body>
+
 </html>
