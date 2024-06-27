@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.header,
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+
+    background-color: #333;
+}
+
+.title,
+.copyright {
+    color: #eee;
+}
+
+.container {
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+
+    background-color: #eee;
+}
+
+img {
+    display: block;
+    width: 300px;
+}
+
+.img {
+    float: left;
+    margin-right: 10px;
+
+    visibility: hidden;
+}
+
+.container:hover .img {
+    visibility: visible;
+}
+
+.lesson {
+    width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+
+    background-color: #333;
+    border-radius: 10px;
+    color: #eee;
+}
+
+.footer {
+    clear: both;
+}
