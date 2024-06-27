@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/28_float, clearfix/style.css">
+    <title>28 урок</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1 class="title-lesson">Обтекания (float, clearfix)</h1>
+    </header>
+
+
+    <div class="container">
+
+        <div class="content">
+            <main class="main">
+                <h1 class="title">Float</h1>
+
+                <div class="text">
+                    <p style="float: left; margin-right: 10px;">
+                        <img src="https://bogatyr.club/uploads/posts/2023-03/1678189754_bogatyr-club-p-mars-pustinya-foni-oboi-68.jpg"
+                            alt="" width="400px">
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet dolor justo, nec blandit
+                        ex semper a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                        himenaeos. Donec sed hendrerit ante, nec semper magna. Fusce accumsan eros nec augue accumsan, a
+                        facilisis sapien faucibus. Integer dapibus tellus vitae augue luctus mattis. In vulputate porta
+                        auctor. Ut sit amet turpis tortor. Nulla efficitur tortor ullamcorper nibh dictum iaculis.
+                        Maecenas mollis dolor sit amet vestibulum venenatis.
+                    </p>
+                </div>
+            </main>
+
+            <aside class="sidebar">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet dolor justo, nec blandit ex
+                semper a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                Donec sed hendrerit ante, nec semper magna.
+            </aside>
+        </div>
+
+    </div>
+
+    <div class="lesson">
+        <p>
+            Свойство <b>float</b> в CSS используется для обтекания элемента другими элементами. Оно позволяет "вывести"
+            элемент
+            из обычного потока документа и прижать его к левому или правому краю контейнера, позволяя другим элементам
+            обтекать его с противоположной стороны. Это свойство часто использовалось для создания макетов веб-страниц
+            до появления более современных методов, таких как Flexbox и Grid.
+        </p>
+        <p>
+            Когда вы используете float, иногда возникает необходимость "очистить" обтекание, чтобы следующие элементы не
+            обтекали плавающие элементы. Для этого используется свойство <b>clear: both;</b>
+        </p>
+        <p>
+            Хотя float все еще используется для обтекания текста и создания простых макетов, для сложных макетов лучше
+            использовать Flexbox или CSS Grid, которые предоставляют более мощные и гибкие возможности для построения
+            макетов веб-страниц.
+        </p>
+    </div>
+
+
+    <footer class="footer">
+        copyright
+    </footer>
+
+</body>
+
+</html>
