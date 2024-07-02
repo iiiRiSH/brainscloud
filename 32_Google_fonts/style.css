@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Comforter';
+    src: url("/32_Google_fonts/assets/fonts/Comforter-Regular.woff") format('woff'),
+    url(/32_Google_fonts/assets/fonts/Comforter-Regular.woff2) format('woff2');
+    font-weight: ;
+}
+
+body {
+        font-family: "Black Ops One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+
+        background-color: #333;
+}
+
+.title {
+    text-align: center;
+    color: #ccc;
+}
+
+.main {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.column {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #eee;
+    color: #333;
+    border-radius: 20px;
+}
+
+.column2 {
+    padding: 10px;
+    background-color: #ccc;
+    color: #333;
+    border-radius: 20px;
+}
+
+.text {
+    font-family: 'Comforter';
+}

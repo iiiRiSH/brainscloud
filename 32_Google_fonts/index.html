@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/32_Google_fonts/style.css">
+    <title>32 урок</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="title">Google fonts, локальные шрифты</h1>
+    </header>
+
+    <main class="main">
+        <div class="column">
+            <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>
+            <p>
+                Google Fonts — это библиотека бесплатных шрифтов, которые можно использовать на вашем сайте.
+            </p>
+            <h3>Oсновные шаги по использованию Google Fonts:</h3>
+            <ol>
+                <li>Перейдите на сайт <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>.</li>
+                <li>Нажмите на вюбранный шрифт, чтобы открыть его страницу.</li>
+                <li>Нажмите на кнопку Get font.</li>
+                <li>Далее на кнопку Get embed code. Здесь в левой колонке можно выбрать нужные стили (например, обычный, жирный, курсив и т.д.).
+                    В правой скопировать код.
+                </li>
+                <li>Вставьте скопированный код в &lt;head&gt; вашего HTML-документа.</li>
+                <li>Используйте шрифт в вашем CSS-файле, указав его в свойстве font-family.</li>
+            </ol>
+        </div>
+
+        <div class="column2">
+            <h2>Локальные шрифты <a href="https://webfonts.pro/">Web Fonts</a></h2>
+            <ul>
+                <li>Необходимо зайти на сайт <a href="https://webfonts.pro/">Web Fonts</a> и скачать архив выбранного шрифта.</li>
+                <li>Затем создать папку куда переместить выбранные шрифты с форматом <b>.woff</b> и <b>.woff2</b></li>
+                <li>
+                    В css-файле сделать соотвествующую запись где нужно указать путь и формат шрифта, а твкже font-weight: при необходимости.
+                    <img src="/32_Google_fonts/assets/images/1.png" alt="" width="100%">
+                </li>
+                <li>Добавить font-family: установленного шрифта для выбранного блока с текстом.</li>
+            </ul>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque tincidunt libero
+                quis
+                hendrerit. Cras pharetra augue et ante facilisis, ac consequat urna egestas. In at nunc non purus
+                aliquam ornare in ac dolor.</p>
+        </div>
+    </main>
+</body>
+
+</html>
