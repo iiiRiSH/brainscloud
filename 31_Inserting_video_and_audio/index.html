@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/31_Inserting_video_and_audio/style.css">
+    <title>31 урок</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="title">Вставка видео и аудио</h1>
+    </header>
+
+    <main class="main">
+
+        <div class="lesson">
+            <h2>Video</h2>
+            <video width="100%" controls poster="/31_Inserting_video_and_audio/files/poster.jpg">
+                <source src="/31_Inserting_video_and_audio/files/video.mp4" type="video/mp4">
+                <p>Ваш браузер не поддерживает HTML5 video</p>
+            </video>
+
+            <p>
+                Тег <u><b>&lt;video&gt;&lt;/video&gt;</b></u> используется для встраивания видеоконтента на
+                веб-страницу.
+            </p>
+
+            <p>
+                <img src="/31_Inserting_video_and_audio/files/1.png" alt="" width="100%"> <br>
+                Атрибуты для тега video <br>
+            <ul>
+                <li><b><u>src:</u></b> Указывает путь к видеофайлу.</li>
+                <li><b><u>width и height:</u></b> Устанавливают размеры видеоплеера.</li>
+                <li><b><u>controls:</u></b> Добавляет стандартные элементы управления видеоплеером (воспроизведение,
+                    пауза, громкость и т.д.).</li>
+                <li><b><u>loop:</u></b> Повторяет видео по кругу.</li>
+                <li><b><u>muted:</u></b> Отключает звук у видео.</li>
+                <li><b><u>autoplay:</u></b> Автоматически воспроизводит видео при загрузке страницы. Совместное
+                    использование с muted обычно рекомендуется для предотвращения автоматического воспроизведения звука.
+                </li>
+                <li><b><u>preload:</u></b> Указывает браузеру, как загружать видеофайл при загрузке страницы. Возможные
+                    значения:
+                    <ul>
+                        <li><i>auto:</i> загружает весь видеоконтент.</li>
+                        <li><i>metadata:</i> загружает только метаданные (размер, продолжительность и т.д.).</li>
+                        <li><i>none:</i> не загружает видео до начала воспроизведения.</li>
+                    </ul>
+                </li>
+            </ul>
+            </p>
+
+            <p>
+                <img src="/31_Inserting_video_and_audio/files/2.png" alt="" width="100%">
+            <ul>
+                <li><b><u>poster:</u></b> Указывает изображение-заглушку, которое будет отображаться до начала
+                    воспроизведения видео.</li>
+                <li>Также можно использовать вложенные теги <i>&lt;source&gt;</i> для указания нескольких форматов
+                    видео, чтобы обеспечить поддержку различных браузеров. Этот код добавляет поддержку разных форматов
+                    видео и выводит сообщение, если браузер не поддерживает тег <i>&lt;video&gt;</i>.</li>
+            </ul>
+            </p>
+        </div>
+
+        <div class="lesson2">
+            <h2>Audio</h2>
+
+            <audio controls>
+                <source src="/31_Inserting_video_and_audio/files/audio.mp3" type="audio/mpeg">
+                <p>Ваш браузер не поддерживает HTML5 audio</p>
+            </audio>
+
+            <p>
+                <img src="/31_Inserting_video_and_audio/files/3.png" alt="" width="100%">
+                HTML-тег <b><i>&lt;audio&gt;</i></b> используется для внедрения звуковых файлов в веб-страницы.
+            </p>
+        </div>
+
+        <div class="lesson">
+            <h2>Встроить видео с YouTube</h2>
+
+            <iframe width="800px" height="300px" src="https://www.youtube.com/embed/PjUZbgZfMOo?si=8-poIMVEkMXFFIrO"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <p>
+                Чтобы встроить видео с YouTube на ваш сайт, можно использовать iframe-код, который предоставляет
+                YouTube. Вот пошаговая инструкция:
+            <ol>
+                <li>Найдите нужное видео на YouTube.</li>
+                <li>Под видео нажмите кнопку "Поделиться" (Share).</li>
+                <li>Выберите опцию "Встроить" (Embed).</li>
+                <li>Скопируйте предложенный HTML-код.</li>
+            </ol>
+            Вы также можете настроить размеры iframe, изменив значения width и height атрибутов. Атрибуты allow и
+            allowfullscreen добавляют возможности для воспроизведения видео в полноэкранном режиме и управления другими
+            параметрами.
+            </p>
+        </div>
+    </main>
+</body>
+
+</html>

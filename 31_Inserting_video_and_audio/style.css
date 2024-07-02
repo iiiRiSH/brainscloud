@@ -1,0 +1,28 @@
+body {
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.title {
+    text-align: center;
+}
+
+.lesson {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+
+    background-color: #333;
+    border-radius: 10px;
+    color: #eee;
+}
+
+.lesson2 {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+
+    background-color: #ccc;
+    border-radius: 10px;
+    color: #333;
+}
